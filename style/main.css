@@ -10,14 +10,13 @@
 }
 
 .nav {
-  height: 10px;
+  height: 40px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(155, 155, 255, 1) 0%,
-    rgba(42, 69, 248, 0) 100%
-  );
+}
+
+.nav span {
+  padding: 10px;
+  display: block;
 }
 
 body {
